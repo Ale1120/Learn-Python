@@ -24,4 +24,7 @@ c =  'mundo'
 print(a + b +c)
 
 #multiplicacion de cadenas
-print(a *10)
+print(a * 10)
+
+# indices
+palabra = 'python'
