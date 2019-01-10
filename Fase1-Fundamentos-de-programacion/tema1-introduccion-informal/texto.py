@@ -36,5 +36,9 @@ palabra[0:-3]
 palabra[:2] + palabra[2:]
 palabra[-2:]
 
+# slicing cambiar letra
 palabra = 'P' + palabra[1:]
 palabra
+
+# len
+len(palabra)
