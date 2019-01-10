@@ -15,3 +15,8 @@
 
 # potencia
 3 ** 2
+
+# variable
+n = 3
+n
+n = m
