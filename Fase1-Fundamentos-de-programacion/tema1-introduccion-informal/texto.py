@@ -35,3 +35,6 @@ palabra[0:2]
 palabra[0:-3]
 palabra[:2] + palabra[2:]
 palabra[-2:]
+
+palabra = 'P' + palabra[1:]
+palabra
