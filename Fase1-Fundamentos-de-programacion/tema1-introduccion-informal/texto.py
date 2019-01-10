@@ -16,3 +16,12 @@ print(r"c:\directorio")
 #parrafo
 print(""" hola como estas
 bien y tu \t muy bien """)
+
+#concatenar
+a = 'hola'
+b = ' '
+c =  'mundo'
+print(a + b +c)
+
+#multiplicacion de cadenas
+print(a *10)
