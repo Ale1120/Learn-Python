@@ -6,3 +6,8 @@ datos[-2:]
 
 # concatenar listas
 numeros + [5,6,7,8]
+
+#cambiar valores en listas
+pares = [0,2,4,5,8,10]
+pares[3] = 6
+pares
