@@ -28,3 +28,10 @@ print(a * 10)
 
 # indices
 palabra = 'python'
+
+#slicing
+palabra[0:2]
+palabra[0:2]
+palabra[0:-3]
+palabra[:2] + palabra[2:]
+palabra[-2:]
