@@ -22,3 +22,14 @@ letra[:3] = ['A','B', 'C']
 
 letras[:3] = []
 letras
+
+letras = []
+letras
+
+
+#listas añidadas
+
+a = [1,2,3]
+b = [4,5,6]
+c = [7,8,9]
+r = [a,b,c]
