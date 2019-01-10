@@ -21,8 +21,8 @@ n = 3
 n
 n = m
 
-# ejecmplo
+# ejemplo
 nota_1 = 5
 nota_2 = 10
-nota_media = (nota_1 +nota_2) / 2
+nota_media = (nota_1 + nota_2) / 2
 nota_media
