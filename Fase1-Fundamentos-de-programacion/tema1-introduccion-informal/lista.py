@@ -14,3 +14,11 @@ pares
 
 #append agregar al final
 pares.append(12)
+
+letras = ['a','b','c','d']
+letra[:3] = ['A','B', 'C']
+
+# borrar con slicing
+
+letras[:3] = []
+letras
