@@ -11,3 +11,6 @@ numeros + [5,6,7,8]
 pares = [0,2,4,5,8,10]
 pares[3] = 6
 pares
+
+#append agregar al final
+pares.append(12)
