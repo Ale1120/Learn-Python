@@ -2,7 +2,7 @@
 not True
 not True == False
 
-# verdad operador logico -- and --
+# es verdadero cuando todo es True operador logico -- and --
 True and True
 False and True
 
