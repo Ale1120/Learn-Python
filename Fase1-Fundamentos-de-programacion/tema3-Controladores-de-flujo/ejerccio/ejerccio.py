@@ -16,8 +16,18 @@ elif opcion == '3':
 else:
     print('comando erroneo')
 
-# ejerccios 2
+# ejerccio 2
 
 numero = 0
 while numero % 2 == 0:
     numero = int( input('introduce un numero impar:'))
+
+# ejerccio 3 range (inicio,fin,salto)
+suma = sum(range(0,101,2))
+print(suma)
+
+suma = 0
+for i in range(101):
+    if i % 2 == 0:
+        suma += i
+print(suma)
