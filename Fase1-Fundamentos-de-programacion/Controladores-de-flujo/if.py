@@ -31,3 +31,12 @@ elif comando == 'SALIR':
     print('Saliendo')
 else:
     print('error')
+
+
+nota = float(input("agregar nota: "))
+if nota >= 9:
+    print('exelente')
+elif nota >= 5 and nota >=7
+    print(regular)
+elif nota < 5:
+    print('raspao')
