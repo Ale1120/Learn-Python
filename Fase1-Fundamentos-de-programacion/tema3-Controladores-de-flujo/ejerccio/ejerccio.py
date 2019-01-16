@@ -35,4 +35,18 @@ suma = 0
 for i in range(numeros):
     suma += float(input('agrega un numero:'))
 
-print("se agregaron", numeros, "que se sumaron",suma, "y la media es:",suma/numeros)    
+print("se agregaron", numeros, "que se sumaron",suma, "y la media es:",suma/numeros)
+
+# ejerccio 5
+
+numeros = [1,3,6,9]
+
+while True:
+    numero = int( input('agrega un numero del 0 a 9'))
+    if numero >= 0 and numero <=9:
+        break
+
+if numeros in numeros:
+    print('El numero', numero, 'se encuentra en la lista', numeros)
+else:
+    print('El numero', numero, 'no se encuentra en la lista', numeros)
