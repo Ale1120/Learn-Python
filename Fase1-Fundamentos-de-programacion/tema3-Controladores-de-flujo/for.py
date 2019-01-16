@@ -21,3 +21,6 @@ string = 'Hola amigos'
 
 for caracter in string :
     print(caracter)
+
+for i in range(10):
+    print(i)
