@@ -1,0 +1,15 @@
+if True:
+    print('se cumple')
+
+
+a = 2
+b = 5
+if a == 2:
+    print('vale ',a)
+    if b == 5:
+        print('vale',b)
+
+b = 10
+a = 5
+if a == 5 and b == 10:
+    print('a vale 5, b vale 10')
