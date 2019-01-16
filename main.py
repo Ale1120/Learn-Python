@@ -5,3 +5,10 @@ while n <10:
     else:
         print(n,' impar')
     n+=1
+
+# aplicando for a ejecicio
+for i in range(11):
+    if i % 2:
+        print (i, 'es par')
+    else:
+        print(i,' impar')
