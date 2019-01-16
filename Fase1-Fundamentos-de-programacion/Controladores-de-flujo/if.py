@@ -20,3 +20,14 @@ if n % 2 == 0:
     print(n,'es par')
 else:
     print(n,'es impar')
+
+comando = 'SALIR'
+
+if comando == 'ENTRAR':
+    print('bienvenido al sistema')
+elif comando == "SALUDAR":
+    print('Hola')
+elif comando == 'SALIR':
+    print('Saliendo')
+else:
+    print('error')
