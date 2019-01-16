@@ -13,3 +13,10 @@ b = 10
 a = 5
 if a == 5 and b == 10:
     print('a vale 5, b vale 10')
+
+
+n = 11
+if n % 2 == 0:
+    print(n,'es par')
+else:
+    print(n,'es impar')
