@@ -26,8 +26,13 @@ while numero % 2 == 0:
 suma = sum(range(0,101,2))
 print(suma)
 
+# ejerccios 4
+
+numeros = int(input("cuantos numeros quieres guardar:"))
+
 suma = 0
-for i in range(101):
-    if i % 2 == 0:
-        suma += i
-print(suma)
+
+for i in range(numeros):
+    suma += float(input('agrega un numero:'))
+
+print("se agregaron", numeros, "que se sumaron",suma, "y la media es:",suma/numeros)    
