@@ -2,3 +2,5 @@
 colores = {'amarillo':'yellow', 'azul':'blue', 'verde':'green' }
 
 color['amarillo']
+# modificando un elemento
+colores['amarillo']= 'white'
