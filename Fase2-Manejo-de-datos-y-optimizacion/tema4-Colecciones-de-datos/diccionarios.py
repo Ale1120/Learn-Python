@@ -16,3 +16,13 @@ for clave in colores:
 # recorriendo un diccionario de manera optima
 for clave,valor in colores.items():
     print(clave,valor)
+
+#ejemplo de uso de diccionario
+personajes = []
+p = {'nombre':'gandalf','clase':'Mago','raza':'humano'}
+personajes.append(p)
+p = {'nombre':'legolas','clase':'picaro','raza':'elfo'}
+personajes.append(p)
+p = {'nombre':'gimli','clase':'guerrero','raza':'enano'}
+personajes.append(p)
+personajes
