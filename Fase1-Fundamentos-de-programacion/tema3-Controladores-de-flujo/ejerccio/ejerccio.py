@@ -63,8 +63,8 @@ print( list(range(0,51,5)))
 l1 = ["h","o","l","a", "", "m","u","n","d","o"]
 l2 = ["h","o","l","a", "", "l","u","n","a"]
 l3 = []
-for i in l1
-if l in l2 and l not in l3:
-    l3.append(l)
+for i in l1:
+    if l in l2 and l not in l3:
+        l3.append(l)
 
 print(l)
