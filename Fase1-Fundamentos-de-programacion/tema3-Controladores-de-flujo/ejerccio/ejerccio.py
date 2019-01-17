@@ -26,7 +26,7 @@ while numero % 2 == 0:
 suma = sum(range(0,101,2))
 print(suma)
 
-# ejerccios 4
+# ejerccio 4
 
 numeros = int(input("cuantos numeros quieres guardar:"))
 
@@ -50,3 +50,11 @@ if numeros in numeros:
     print('El numero', numero, 'se encuentra en la lista', numeros)
 else:
     print('El numero', numero, 'no se encuentra en la lista', numeros)
+
+# ejerccio 6
+
+print( list(range(0,11)))
+print( list(range(-10,1)))
+print( list(range(0,21,2)))
+print( list(range(-20,1)))
+print( list(range(0,51,5)))
