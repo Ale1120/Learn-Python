@@ -8,3 +8,7 @@ colores['amarillo']= 'white'
 
 # borrar un elemento clave:valor
 del(colores['amarillo'])
+
+# recorrer un diccionario completo
+for clave in colores:
+    print(clave,colores[clave])
