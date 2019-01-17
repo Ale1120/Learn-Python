@@ -12,3 +12,7 @@ del(colores['amarillo'])
 # recorrer un diccionario completo
 for clave in colores:
     print(clave,colores[clave])
+
+# recorriendo un diccionario de manera optima
+for clave,valor in edades.items():
+    print(clave,valor)
