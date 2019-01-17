@@ -56,5 +56,15 @@ else:
 print( list(range(0,11)))
 print( list(range(-10,1)))
 print( list(range(0,21,2)))
-print( list(range(-20,1)))
+print( list(range(-19,0,2)))
 print( list(range(0,51,5)))
+
+# ejerccio 7
+l1 = ["h","o","l","a", "", "m","u","n","d","o"]
+l2 = ["h","o","l","a", "", "l","u","n","a"]
+l3 = []
+for i in l1
+if l in l2 and l not in l3:
+    l3.append(l)
+
+print(l)
