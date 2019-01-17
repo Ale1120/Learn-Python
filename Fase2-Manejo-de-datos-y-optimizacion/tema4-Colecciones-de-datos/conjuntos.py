@@ -8,3 +8,6 @@ conjunto
 personas= {'Alejandro','Anthony'}
 
 'Maria' in grupo
+# pasar una lista a conjunto
+l=[1,5,4,2,3,5,1,2,3]
+c =set(l)
