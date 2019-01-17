@@ -11,3 +11,7 @@ personas= {'Alejandro','Anthony'}
 # pasar una lista a conjunto
 l=[1,5,4,2,3,5,1,2,3]
 c =set(l)
+c
+ # pasar un conjuto a una lista
+l = list(c)
+l
