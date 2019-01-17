@@ -6,3 +6,6 @@ tupla[2:]
 tupla[2][0]
 
 len(tupla)
+
+# index para buscar un elemento y su posicion
+tuplas.index(200)
