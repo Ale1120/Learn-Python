@@ -14,5 +14,5 @@ for clave in colores:
     print(clave,colores[clave])
 
 # recorriendo un diccionario de manera optima
-for clave,valor in edades.items():
+for clave,valor in colores.items():
     print(clave,valor)
