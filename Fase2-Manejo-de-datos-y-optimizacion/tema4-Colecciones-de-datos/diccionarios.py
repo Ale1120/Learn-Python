@@ -26,3 +26,6 @@ personajes.append(p)
 p = {'nombre':'gimli','clase':'guerrero','raza':'enano'}
 personajes.append(p)
 personajes
+
+for p in personajes:
+    print(p['nombre'],p['clase'],p['raza'])
