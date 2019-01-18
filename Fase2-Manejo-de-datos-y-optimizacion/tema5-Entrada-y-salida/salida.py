@@ -25,3 +25,8 @@ print('{:.3}'.format('Alejandro'))
 
 # truncamiento y Alineamiento
 print('{:>30.3}'.format('Alejandro'))
+
+# formateo de numeros enteros, rellenados con espacios
+print('{:4d}'.format(10))
+print('{:4d}'.format(100))
+print('{:4d}'.format(1000))
