@@ -10,6 +10,7 @@ def tabla5():
 
 tabla5()
 
+
 m = 10
 def test():
     print(m)
