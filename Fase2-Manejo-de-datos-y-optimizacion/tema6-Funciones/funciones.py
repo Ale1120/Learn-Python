@@ -9,3 +9,8 @@ def tabla5():
         print('5 * {i} = {total}'.format(i=i,total= i*5))
 
 tabla5()
+
+m = 10
+def test():
+    print(m)
+test()
