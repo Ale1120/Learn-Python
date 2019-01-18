@@ -13,12 +13,15 @@ print('{texto},{texto},{texto}'.format(texto=v))
 
 # Alineamiento
 # dereccha
-pritn('{:>30}'.format('Hola'))
+print('{:>30}'.format('Hola'))
 # izquierda
-pritn('{:30}'.format('Hola'))
+print('{:30}'.format('Hola'))
 # centrado
-pritn('{:^30}'.format('Hola'))
+print('{:^30}'.format('Hola'))
 
 
-#truncamiento
-pritn('{:.3}'.format('Alejandro'))
+# truncamiento
+print('{:.3}'.format('Alejandro'))
+
+# truncamiento y Alineamiento
+print('{:>30.3}'.format('Alejandro'))
