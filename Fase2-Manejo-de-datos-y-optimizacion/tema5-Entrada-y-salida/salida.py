@@ -39,3 +39,7 @@ print('{:04d}'.format(1000))
 # formateo de numeros flotantes, relleandos con espacio
 print('{:.3f}'.format(3.14.15929))
 print('{:.3f}'.format(153.21))
+
+# alineado decimales
+print('{:7.3f}'.format(3.14.15929))
+print('{:7.3f}'.format(153.21))
