@@ -35,3 +35,7 @@ print('{:4d}'.format(1000))
 print('{:04d}'.format(10))
 print('{:04d}'.format(100))
 print('{:04d}'.format(1000))
+
+# formateo de numeros flotantes, relleandos con espacio
+print('{:.3f}'.format(3.14.15929))
+print('{:.3f}'.format(153.21))
