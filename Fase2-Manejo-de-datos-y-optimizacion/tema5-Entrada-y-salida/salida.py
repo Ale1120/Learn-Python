@@ -18,3 +18,7 @@ pritn('{:>30}'.format('Hola'))
 pritn('{:30}'.format('Hola'))
 # centrado
 pritn('{:^30}'.format('Hola'))
+
+
+#truncamiento
+pritn('{:.3}'.format('Alejandro'))
