@@ -13,3 +13,8 @@ print('{texto},{texto},{texto}'.format(texto=v))
 
 # Alineamiento
 # dereccha
+pritn('{:>30}'.format('Hola'))
+# izquierda
+pritn('{:30}'.format('Hola'))
+# centrado
+pritn('{:^30}'.format('Hola'))
