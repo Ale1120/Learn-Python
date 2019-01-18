@@ -40,6 +40,10 @@ print('{:04d}'.format(1000))
 print('{:.3f}'.format(3.14.15929))
 print('{:.3f}'.format(153.21))
 
-# alineado decimales
+# formateo de numeros decimales(caracteres) con espacio
 print('{:7.3f}'.format(3.14.15929))
 print('{:7.3f}'.format(153.21))
+
+# formateo de numeros decimales(caracteres) con 0
+print('{:07.3f}'.format(3.14.15929))
+print('{:07.3f}'.format(153.21))
