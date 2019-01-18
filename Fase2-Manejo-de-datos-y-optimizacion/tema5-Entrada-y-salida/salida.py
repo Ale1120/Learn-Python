@@ -30,3 +30,8 @@ print('{:>30.3}'.format('Alejandro'))
 print('{:4d}'.format(10))
 print('{:4d}'.format(100))
 print('{:4d}'.format(1000))
+
+# formateo de numeros enteros, rellenados con 0
+print('{:04d}'.format(10))
+print('{:04d}'.format(100))
+print('{:04d}'.format(1000))
