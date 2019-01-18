@@ -1,0 +1,7 @@
+# ejerccios 1 format()
+print('{:>20}'.format('Hola Mundo'))
+print('{:.3}'.format('Hola Mundo'))
+print('{:^20.1}'.format('Hola Mundo'))
+print('{:05d}'.format(150))
+print('{:7d}'.format(7887))
+print('{:7.3f}'.format(20.02))
