@@ -20,6 +20,14 @@ def relaccion(a,b):
         return -1
     else:
         return 0
-relaccion(5,10)
-relaccion(10,5)
-relaccion(5,5)
+
+print(relaccion(5,10))
+print(relaccion(10,5))
+print(relaccion(5,5))
+
+# ejerccios 4
+
+def intermedio(a,b):
+    return (a+b)/2
+
+print(intermedio(5,5))
