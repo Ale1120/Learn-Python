@@ -42,3 +42,20 @@ print(intermedio(5,5))
         return numero
 
 print(recortar(15,0,10))
+
+# ejerccio 6
+lista = [-12,84,13,20,-33,101,9]
+def separar(numeros):
+    numeros.sort()
+    pares = []
+    impares = []
+    for i in numeros:
+        if i % 2 == 0:
+            pares.append(i)
+        else:
+            impares.append(i)
+    return pares,impares
+
+pares,impares =separar(lista)
+print(pares)
+print(impares)
