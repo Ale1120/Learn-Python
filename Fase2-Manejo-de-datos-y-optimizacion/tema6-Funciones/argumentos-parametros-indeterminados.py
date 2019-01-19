@@ -11,3 +11,14 @@ def indeterminados_posicion( **kwargs):
         print(kwargs,'',kwargs[i])
 
 indeterminados_posicion(n=5,c='hola',l=[1,2])
+
+# ejemplo
+def super_funcion(*args, **kwargs):
+    t=0
+    for i in args:
+        t+=i
+    print('el total de indeterminados es:',t)
+    for j in kwargs:
+        print(j,'',kwargs[j])
+
+super_funcion(10,50,-1,1.56,10,20,300,nombre='Alejandro',edad=23)
