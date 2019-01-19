@@ -31,3 +31,14 @@ def intermedio(a,b):
     return (a+b)/2
 
 print(intermedio(5,5))
+
+#ejerccios 5
+ def recortar(numero,minimo,maximo):
+     if numero < minimo:
+         return minimo
+     elif numero > maximo:
+        return maximo
+     else:
+        return numero
+
+print(recortar(15,0,10))
