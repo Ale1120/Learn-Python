@@ -17,3 +17,9 @@ try:
     color['blanco']
 except KeyError:
     print("Error:la key no se encuntra en el diccionario")
+
+# ejerccio 4
+try:
+    r = 15 + '20'
+except: TypeError:
+    print("Error: Solo se puede sumar datos del mismo tipo, por favor transformar a numeros o string")
