@@ -9,4 +9,11 @@ try:
     lista = [1,2,3,4,5]
     lista[10]
 except IndexError:
-    print('Error el index supera la longuitud de la lista',len(lista))
+    print('Error el index supera la longuitud de la lista. su longuitud es ',len(lista))
+
+# ejerccio 3
+try:
+    colores = {'rojo':'red','verde':'green','negro':'black'}
+    color['blanco']
+except KeyError:
+    print("Error:la key no se encuntra en el diccionario")
