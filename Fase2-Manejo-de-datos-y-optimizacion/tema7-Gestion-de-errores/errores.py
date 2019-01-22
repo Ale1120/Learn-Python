@@ -17,10 +17,10 @@ if len(lista) > 0:
 # error simanticos
 numero = input('agregue un numero:')
 numero2 = 4
-print("{}/{}={}".format(n,m,n/m))
+print("{}/{}={}".format(numero,numero2,numero/numero2))
 
 
 # solucion
 numero = float(input('agregue un numero: '))
 numero2 = 4
-print("{}/{}={}".format(n,m,n/m))
+print("{}/{}={}".format(numero,numero2,numero/numero2))
