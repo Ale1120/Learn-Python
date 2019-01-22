@@ -4,3 +4,4 @@ class Galleta:
 
 una_galleta = Galleta()
 otra_galleta = Galleta()
+type(una_galleta)
