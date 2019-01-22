@@ -23,3 +23,19 @@ try:
     r = 15 + '20'
 except: TypeError:
     print("Error: Solo se puede sumar datos del mismo tipo, por favor transformar a numeros o string")
+
+# ejerccio 5
+elementos = [1,5,-2]
+
+def agregar(lista,elem):
+    try:
+        if elem in lista:
+            raise ValueError
+        else:
+            lista.append(elem)
+    except ValueError:
+        print("Error: imposible anadir elementos duplicados => {}".format(elem))
+
+agregar(elementos,10)
+agregar(elementos,-2)
+agregar(elementos,"hola")
