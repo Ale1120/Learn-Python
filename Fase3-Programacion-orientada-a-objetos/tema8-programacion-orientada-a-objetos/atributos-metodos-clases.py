@@ -13,3 +13,15 @@ class Galleta:
 
 galleta = Galleta()
 g.chocolate
+
+
+class Galleta:
+    chocolate = False
+
+    def __init__ (self):
+        print('Se acaba de crear una galleta')
+
+galleta = Galleta()
+galleta.chocolate
+
+# ejemplo
