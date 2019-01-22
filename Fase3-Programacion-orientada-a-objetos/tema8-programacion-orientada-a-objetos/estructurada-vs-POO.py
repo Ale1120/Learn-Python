@@ -52,3 +52,12 @@ class Empresa:
                 print(str(c), '> BORRADO')
                 return
         print('Cliente no encontrado')
+
+
+alejandro = Cliente(nombre = 'alejandro',apellido = 'Ortegano',ci ='124534773')
+anthony = CLiente('12457556','anthony','sanoja')
+empresa = Empresa(cliente[alejandro,anthony])
+
+empresa.clientes
+empresa.mostrar_cliente(ci='124534773')
+empresa.borrar_cliente(ci='12457556')
