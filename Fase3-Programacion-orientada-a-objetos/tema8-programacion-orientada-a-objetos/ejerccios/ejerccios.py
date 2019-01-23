@@ -51,3 +51,29 @@ B.distancia(A)
 A.distancia(D)
 B.distancia(D)
 C.distancia(D)
+
+class Rectangulo:
+
+    def __init__(self, punto_inicial=Punto(), punto_final=Punto()):
+        self.punto_inicial = punto_inicial
+        self.punto_final = punto_final
+
+    def base(self):
+        self.base = abs (self.punto_final.x - self.punto_inicial.x)
+        print("La base del rectangulo es {}".format(self.base))
+
+    def altura(self):
+        self.altura = abs (self.punto_final.y - self.punto_inicial.y)
+        print("La altura del rectangulo es {}".format(self.altura))
+
+    def area(self):
+        self.base = abs (self.punto_final.x - self.punto_inicial.x)
+        self.altura = abs (self.punto_final.y - self.punto_inicial.y)
+        self.area = self.base * self.altura
+        print("El area del rectangulo es {}".format(self.area))
+
+
+rectangulo = Rectangulo(A,B)
+rectangulo.base()
+rectangulo.altura()
+rectangulo.area()
