@@ -28,3 +28,7 @@ class Producto:
         NOMBRE\t{}
         PRECIO\t{}
         DESCRIPCION\t{}""".format(self.referencia,self.nombre,self.precio,self.descripcion)
+
+# clases hijas
+class adorno(Producto):
+    pass
