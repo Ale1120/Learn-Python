@@ -1,4 +1,4 @@
-class Pelicula(object):
+class Pelicula:
     # Constructor de la classe
     def __init__(self, titulo, duracion, lanzamiento):
         self.titulo = titulo
