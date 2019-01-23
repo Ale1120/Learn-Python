@@ -12,11 +12,11 @@ class Pelicula:
 class Catalogo:
      peliculas = []
 
-    def __init__(self,peliculas[]):
-        self.peiculas = peliculas
+    def __init__(self, peliculas=[]):
+        self.peliculas = peliculas
 
     def agregar(self,pelicula):
-        self.peliculas.append(peliculas)
+        self.peliculas.append(pelicula)
 
     def mostrar(self):
         for pelicula in self.peliculas:
@@ -24,5 +24,7 @@ class Catalogo:
 
 
 padrino = Pelicula("El padrino", 175,1972)
-accion = Catalogo([padrino])
-accion.mostrar()
+catalogo = Catalogo([padrino])
+catalogo.mostrar()
+
+catalogo.agregar(Pelicula("El padrino II",202,1974))
