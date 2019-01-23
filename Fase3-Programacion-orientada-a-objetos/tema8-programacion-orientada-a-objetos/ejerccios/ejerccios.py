@@ -27,7 +27,7 @@ class Punto:
 
     def distancia(self,punto):
         # sqrt es la raiz cuadrada
-        distancia = math.sqrt( (punto.x - self.z)**2 + (punto.y - self.y)**2 )
+        distancia = math.sqrt( (punto.x - self.y)**2 + (punto.y - self.y)**2 )
         print("La distancia entre los puntos {} y {} es {}".format(self,punto,distancia))
 
 
@@ -52,6 +52,7 @@ A.distancia(D)
 B.distancia(D)
 C.distancia(D)
 
+# ejerccios 1 Rectangulo
 class Rectangulo:
 
     def __init__(self, punto_inicial=Punto(), punto_final=Punto()):
