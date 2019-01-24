@@ -51,3 +51,11 @@ alimento.distribuidor="polar"
 libro = Libro(2036,"Cocina",9,'Recetas sanas y buenas')
 libro.codigo = "0-1489631-17-8"
 libro.autor = 'Juana'
+
+# agregando los productos a una lista
+
+productos = [adorno,alimento]
+productos.append(libro)
+
+for producto in productos:
+    print(producto,"\n")
