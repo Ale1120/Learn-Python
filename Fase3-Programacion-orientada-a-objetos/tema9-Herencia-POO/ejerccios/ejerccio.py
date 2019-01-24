@@ -18,8 +18,7 @@ class Coche(Vehiculo):
         self.cilindrada = cilindrada
 
     def __str__(self):
-        return super().__str__() + ",km/h, {} ruedas, {} cc".
-        format(self.velocidad,self.cilindrada)
+        return super().__str__() + ", {} km/h ruedas, {} cc".format(self.velocidad,self.cilindrada)
 
 class Camioneta(Coche):
 
@@ -28,8 +27,7 @@ class Camioneta(Coche):
         self.carga = carga
 
     def __str__(self):
-        return super().__str__() + "{} kg de cargas".
-        format(self.carga)
+        return super().__str__() + ", {} kg de cargas".format(self.carga)
 
 class Bicicleta(Vehiculo):
 
@@ -38,8 +36,7 @@ class Bicicleta(Vehiculo):
         self.tipo = tipo
 
     def __str__(self):
-        return super().__str__() + "{} ".
-        format(self.tipo)
+        return super().__str__() + ", {} ".format(self.tipo)
 
 class Motocicleta(Bicicleta):
 
@@ -49,5 +46,34 @@ class Motocicleta(Bicicleta):
         self.cilindrada = cilindrada
 
     def __str__(self):
-        return super().__str__() + ",km/h, {} ruedas, {} cc".
-        format(self.velocidad,self.cilindrada)
+        return super().__str__() + ", {} km/h {} cc".format(self.velocidad,self.cilindrada)
+
+vehiculos = [
+    Coche("Azul",4,150,1200),
+    Camioneta("Blanco",4,100,1300,1500),
+    Bicicleta("Verde",2,"urbana"),
+    Motocicleta("negro",2,"deportiva",180,900)
+]
+
+# def catalogar(vehiculos):
+#     for vehiculo in vehiculos:
+#         print("{} {}".format( type(vehiculo).__name__, vehiculo ))
+#
+# catalogar(vehiculos)
+
+def catalogar(vehiculos, ruedas=None):
+    if ruedas != None:
+        contador = 0
+        for vehiculo in vehiculos:
+            contador += 1
+
+        print("Se ha encontrado {} vehiculos con {} ruedas".format(contador,ruedas))
+        print("=============================================")
+
+    for vehiculo in vehiculos:
+        if ruedas == None:
+            print("{} {}".format( type(vehiculo).__name__, vehiculo ))
+        elif vehiculo.ruedas == ruedas:
+            print("{} {}".format( type(vehiculo).__name__, vehiculo ))
+
+catalogar(vehiculos,2)
