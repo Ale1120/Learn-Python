@@ -72,3 +72,8 @@ def rebajar(producto,rebaja):
 
 rebaja = rebajar(alimento,10)
 print(rebaja)
+
+# copia del objeto listas clases y diccionario
+ import copy
+ copia_adorno = copy.copy(ad)
+ print(copia_ad)
