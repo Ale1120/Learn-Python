@@ -43,3 +43,11 @@ DESCRIPCION\t{}
 CODIGO\t\t{}
 AUTOR\t\t{}""".format(self.referencia,self.nombre,self.precio,self.descripcion,
 self.codigo, self.autor)
+
+adorno = Adorno(1245, 'Vaso Adornado',15,'Vaso de porcelana con dibujos')
+alimento = Alimento(2035,"Botella de Aceite de Olivar",5,"250 Mil")
+alimento.productor="La aceitera"
+alimento.distribuidor="polar"
+libro = Libro(2036,"Cocina",9,'Recetas sanas y buenas')
+libro.codigo = "0-1489631-17-8"
+libro.autor = 'Juana'
