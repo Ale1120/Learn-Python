@@ -30,3 +30,15 @@ c2.isalnum()
 # solo si tenemos letra (los espacio no cuenta)
 c3 = "AAAAVVaaa"
 c3.isalpha()
+
+# es todo minusculas
+"Hola mundo".islower()
+
+# es todo mayuscula
+"Hola mundo".isupper()
+
+# es letra mayuscula en cada letra
+"Hola mundo".istitle()
+
+# es espacio 
+"  ". insspace()
