@@ -58,4 +58,9 @@ productos = [adorno,alimento]
 productos.append(libro)
 
 for producto in productos:
-    print(producto,"\n")
+    if isinstance(producto,Adorno): # para ver si un objeto tiene una tipo ejemplo
+        print(producto.referencia,producto.nombre)
+    elif isinstance(producto,Alimento):
+        print(producto.referencia,producto.nombre,producto.productor)
+    elif isinstance(producto,Libro):
+        print(producto.referencia,producto.nombre,producto.codigo)
