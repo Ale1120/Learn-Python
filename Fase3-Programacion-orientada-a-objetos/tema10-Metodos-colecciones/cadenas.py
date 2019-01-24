@@ -3,3 +3,9 @@
 
 # Metodo minusculas
 "HOLA MUNDO".lower()
+
+# primer letra de un string en mayuscula
+"hola mundo".capatalize()
+
+# primer letra de cada palabra en mayuscula
+"hola mundo".title()
