@@ -64,3 +64,11 @@ for producto in productos:
         print(producto.referencia,producto.nombre,producto.productor)
     elif isinstance(producto,Libro):
         print(producto.referencia,producto.nombre,producto.codigo)
+
+def rebajar(producto,rebaja):
+    """Devuelve un producto con una rebaja """
+    producto.precio = producto.precio -(producto.precio/100 * rebaja)
+    return producto
+
+rebaja = rebajar(alimento,10)
+print(rebaja)
