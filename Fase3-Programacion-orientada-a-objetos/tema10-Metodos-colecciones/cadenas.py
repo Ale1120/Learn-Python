@@ -9,3 +9,6 @@
 
 # primer letra de cada palabra en mayuscula
 "hola mundo".title()
+
+# contar las veces que aparece un caracter
+"Hola mundo".count('o')
