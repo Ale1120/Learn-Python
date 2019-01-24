@@ -12,7 +12,7 @@ class Producto:
 REFERENCIA\t{}
 NOMBRE\t\t{}
 PRECIO\t\t{}
-DESCRIPCION\t\t{}""".format(self.referencia,self.nombre,self.precio,self.descripcion)
+DESCRIPCION\t{}""".format(self.referencia,self.nombre,self.precio,self.descripcion)
 
 # clases hijas
 class Adorno(Producto):
@@ -38,3 +38,21 @@ alimento = Alimento(2035,"Botella de Aceite de Olivar",5,"250 Mil")
 alimento.productor="La aceitera"
 alimento.distribuidor="polar"
 print(alimento)
+
+class Libro(Producto):
+    codigo = ""
+    autor = ""
+    def __str__(self):
+        return """\
+REFERENCIA\t{}
+NOMBRE\t\t{}
+PRECIO\t\t{}
+DESCRIPCION\t{}
+CODIGO\t\t{}
+AUTOR\t\t{}""".format(self.referencia,self.nombre,self.precio,self.descripcion,
+self.codigo, self.autor)
+
+libro = Libro(2036,"Cocina",9,'Recetas sanas y buenas')
+libro.codigo = "0-1489631-17-8"
+libro.autor = 'Juana'
+print(libro)
