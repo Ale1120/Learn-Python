@@ -12,3 +12,10 @@
 from saludos import *
 saludar()
 Saludo()
+
+# cuando el archivo importaado esta en otra lado ejemplo
+# import sys
+# sys.path.insert(1,'..')
+# from saludos import *
+# saludar()
+# Saludo()
