@@ -2,12 +2,18 @@ lista = [1,2,3,4,5]
 # agregando un elemento a la lista
 lista.append(6)
 
-# agregar un elemento en la posicion deseada
+# agregar un elemento en la posicion desea
 l = [5,10,15,25]
 l.insert(-1,20)
 
 # borrar toda la lista
 lista.clear()
+
+# sacar el ultimo
+l = [10,20,30,40]
+l.pop()
+# borrar el elemento a como desea por posicion
+l.pop(0)
 
 # expandiendo una lista
 l1 = [1,2,3]
