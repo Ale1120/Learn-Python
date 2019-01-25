@@ -40,7 +40,7 @@ c3.isalpha()
 # es letra mayuscula en cada letra
 "Hola mundo".istitle()
 
-# es espacio 
+# es espacio
 "  ". insspace()
 
 # para ver si comiensa con una letra o cadena
@@ -48,3 +48,12 @@ c3.isalpha()
 
 # para ver si termina con una letra o cadena
 "hola mundo".endswhith('mundo')
+
+# separar una cadena de caracteres y crea una lista
+"hola Mundo bn".split()
+
+# para serparar con parametros
+"hola,mundo,bn,j".split(,)
+
+# unir cadenas ejemplo con (,)
+",".join("hola munado")
