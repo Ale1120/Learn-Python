@@ -57,3 +57,9 @@ c3.isalpha()
 
 # unir cadenas ejemplo con (,)
 ",".join("hola munado")
+
+# elminiar espacio por delante y por de tras
+"   Hola mundo  ".strip()
+
+# eliminar por parametros
+"------Hola mundo---- ".strip('-')
