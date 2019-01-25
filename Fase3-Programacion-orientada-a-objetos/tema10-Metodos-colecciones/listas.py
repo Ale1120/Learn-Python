@@ -12,3 +12,6 @@ l1.extend(l2)
 
 # contar cuanta veces esta un elemento
 ["Hola","mundo","mundo"].count("mundo")
+
+# devolver la posicion de una caracter (solo busca el primero en esta en la lista )
+["Hola","mundo","mundo"].index("hola")
