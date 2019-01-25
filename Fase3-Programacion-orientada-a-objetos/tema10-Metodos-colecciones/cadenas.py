@@ -42,3 +42,9 @@ c3.isalpha()
 
 # es espacio 
 "  ". insspace()
+
+# para ver si comiensa con una letra o cadena
+"hola Mundo".startswith("hola")
+
+# para ver si termina con una letra o cadena
+"hola mundo".endswhith('mundo')
