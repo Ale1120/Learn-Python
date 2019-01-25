@@ -5,7 +5,7 @@
 "HOLA MUNDO".lower()
 
 # primer letra de un string en mayuscula
-"hola mundo".capatalize()
+"hola mundo".capitalize()
 
 # primer letra de cada palabra en mayuscula
 "hola mundo".title()
