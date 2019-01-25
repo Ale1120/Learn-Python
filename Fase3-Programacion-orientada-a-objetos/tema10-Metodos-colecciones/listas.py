@@ -32,3 +32,7 @@ l1.extend(l2)
 
 # devolver la posicion de una caracter (solo busca el primero en esta en la lista )
 ["Hola","mundo","mundo"].index("hola")
+
+# dar la vuelta a una lista
+l = [40,30,20,10,0]
+l.reverse()
