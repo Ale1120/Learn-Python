@@ -43,3 +43,8 @@ l.reverse()
 lista = list("Hola Mundo ")
 lista.reverse()
 cadena = "" join(lista)
+print("Esta es una cadena volteada: ",cadena)
+
+# ordenar una lista
+lista = [5,-10,35,0,-65,100]
+lista.sort()
