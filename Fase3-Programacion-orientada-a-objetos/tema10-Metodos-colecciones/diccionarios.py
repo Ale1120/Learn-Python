@@ -15,11 +15,11 @@ print("Mostanado las clave de un diccionario keys():",colores.keys())
 print("Mostanado las valores de un diccionario values():",colores.values())
 
 # mostrar keys y values
-print("Mostando keys y values en tuplas con item(): ",colores.item())
+print("Mostando keys y values en tuplas con item(): ",colores.items())
 
 # recorrer un diccionario
-for clave, valor in colores.item():
-    print("El keys {} y el values {} son del diccionario colores!!".format(clave,valor))
+for clave, valor in colores.items():
+    print("El keys '{}' y el values ({}) son del diccionario colores!!".format(clave,valor))
 
 # borrar un elemento con su keys
 colores.pop("amarillo","no se ha encontrado")
