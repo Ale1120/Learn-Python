@@ -63,3 +63,9 @@ c3.isalpha()
 
 # eliminar por parametros
 "------Hola mundo---- ".strip('-')
+
+# remplazar un caracter o cadena
+"hola mundo".replace("o",'0')
+
+# remplazando un cadena repetido
+"Hola mundo mundo mundo mundo mundo ".replace(' mundo', '', 4)
