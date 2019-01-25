@@ -47,3 +47,10 @@ print("los elementos distinto del c1 y c2 son : ",c1.difference(c2))
 # diferencia  y actualizar
 c1.difference_update(c2)
 print("los elementos distintos del c1 y c2 son :",c1)
+
+# elementos comunes devuelve otro conjuto
+c1 = {1,2,3}
+c2 = {3,4,5}
+c3 = {-1,99}
+c4 = {1,2,3,4,5}
+c1. intersection(c2)
