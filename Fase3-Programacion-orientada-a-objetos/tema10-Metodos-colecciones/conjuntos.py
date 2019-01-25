@@ -16,3 +16,17 @@ c2 = conjunto.copy()
 
 # borrar todo los elementos
 c2.clear()
+
+# comparaciones
+c1 = {1,2,3}
+c2 = {3,4,5}
+c3 = {-1,99}
+c4 = {1,2,3,4,5}
+
+# para saber si un conjunto es disnto a otro conjunto (elementos)
+c1.isdisjoint(c3)
+
+# subconjutos
+c1.isubset(c4)
+
+# es un super conjunto o contenedor
