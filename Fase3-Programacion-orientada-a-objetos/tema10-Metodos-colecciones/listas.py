@@ -36,3 +36,10 @@ l1.extend(l2)
 # dar la vuelta a una lista
 l = [40,30,20,10,0]
 l.reverse()
+
+
+# ejemplo de como darle la vuelta a un string
+
+lista = list("Hola Mundo ")
+lista.reverse()
+cadena = "" join(lista)
