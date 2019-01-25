@@ -53,4 +53,7 @@ c1 = {1,2,3}
 c2 = {3,4,5}
 c3 = {-1,99}
 c4 = {1,2,3,4,5}
-c1. intersection(c2)
+c1.intersection(c2)
+
+# devuelve los elementos que no concuerda entre dos conjutos
+c1.symmetric_difference(c2)
