@@ -18,3 +18,18 @@ print("======================================")
 # ejerccios 2 lista
 
 lista = [29,-5,-12,17,5,24,5,12,23,16,12,5,-15,17]
+
+def modificar(numeros):
+    numeros = list(set(numeros)) # conjuntos
+    numeros.sort(reverse=True)
+    for i, numero in enumerate(numeros):
+        if numero%2 != 0:
+            del(numeros[i])
+    suma = sum(numeros)
+    numeros.insert(0,suma)
+    return numeros
+
+nueva_lista = modificar(lista)
+print("nueva lista:",nueva_lista)
+print("La suma de la nueva lista es igual a la posicion 0 es igual a {} :".format(nueva_lista[0]), nueva_lista[0] == sum(nueva_lista[1:]))
+print("lista original",lista)
