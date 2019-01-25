@@ -15,6 +15,13 @@ l.pop()
 # borrar el elemento a como desea por posicion
 l.pop(0)
 
+# borrar un elemento por su elemento
+l.remove(30)
+# si se repite un elemento borrar el primer elemento
+l = [20,40,40,30,40]
+l.remove(40)
+
+
 # expandiendo una lista
 l1 = [1,2,3]
 l2 = [4,5,6]
