@@ -4,4 +4,4 @@ def saludar():
 
 class Saludo():
     def __init_(self):
-        print("Hola te estoy saludando desde el __init__ de la clase")
+        print("Hola te estoy saludando desde el __init__ de la clase del modulo saludos")
