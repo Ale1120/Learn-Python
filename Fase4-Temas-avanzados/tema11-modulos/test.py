@@ -4,6 +4,11 @@
 # # para llamar el saludo de un import
 # saludos.saludar()
 
-# importar un y usar la funciones de otra manera
-from saludos import saludar
+# # importar un y usar la funciones de otra manera
+# from saludos import saludar
+# saludar()
+
+# importar y ejecutar todas las funciones,etc
+from saludos import *
 saludar()
+Saludo()
