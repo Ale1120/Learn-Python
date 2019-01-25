@@ -27,6 +27,12 @@ c4 = {1,2,3,4,5}
 c1.isdisjoint(c3)
 
 # subconjutos
-c1.isubset(c4)
+c1.issubset(c4)
 
 # es un super conjunto o contenedor
+c4.issuperset(c1)
+
+# union de dos conjuntos
+print("union de c1 con c2",c1.union(c2))
+# actualizando el conjuto con union
+c1.update(c2)
