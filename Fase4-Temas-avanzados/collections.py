@@ -25,4 +25,14 @@ print("El counter nos devuelve un Diccionario (podemos usar sus metodo ) items()
 print("El counter nos devuelve un Diccionario (podemos usar sus metodo ) keys(): ",c.keys())
 print("El counter nos devuelve un Diccionario (podemos usar sus metodo ) values(): ",c.values())
 print("Sumando la cantidad de elementos : ",sum(c.values()))
-print("Transformamos a lista:" ,list(c))
+print("Transformamos a lista:",list(c))
+print("==================================================================================")
+
+# diccionarios de tipo por defectos
+print("!!Diccionario de tipo por Defectos!!!")
+from collections import defaultdict
+diccionario = {}
+diccionario = defaultdict(float)
+print("Creando diccionario por defectos:", diccionario)
+print("Buscando una key que no existe en el diccionario: ", diccionario['key'])
+print("Mostrando el diccionario con el valor de la key que le pasamos:",diccionario)
