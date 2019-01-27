@@ -29,4 +29,4 @@ random.shuffle(lista)
 print("Barajeando la lista 1,2,3,4,5 con shuffle()",lista)
 
 # muestra aleaotrioa de dos elemento de una lista
-print("Muestra de elementos aleaotrio sample(lista,3): ",ramdon.sample(lista,3))
+print("Muestra de elementos aleaotrio sample(lista,3): ",random.sample(lista,3))
