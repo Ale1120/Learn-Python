@@ -36,3 +36,5 @@ print("Mi Datetime formateado es :" dt.strftime("%A %d %B %Y %I:%M"))
 
 # importando locale
 import locale
+locale.setlocale(locale.LC_ALL,'')
+print("Mi Datetime formateado es con localete :" dt.strftime("%A %d %B %Y %I:%M"))
