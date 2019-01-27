@@ -3,6 +3,7 @@
 # para crear el distribuible python setup.py sdist
 # para usar stuptools installar con pip
 # para instalar paguete distribuible pip3 install paquete-0.1.tar.gz
+# desintalar pip3 uninstall paquete
 from setuptools import setup
 
 setup(
@@ -13,5 +14,5 @@ setup(
     author_email= "tus@perritos.com",
     url="http://tusperrico.com",
     scripts=[],
-    packeges=["paquete","paquete.adios","paquete.hola"]
+    packages=["paquete","paquete.adios","paquete.hola"]
 )
