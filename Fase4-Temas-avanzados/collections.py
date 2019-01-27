@@ -39,6 +39,7 @@ print("Mostrando el diccionario con el valor de la key que le pasamos: ",diccion
 print("==================================================================================")
 
 # ordenando como instroduscamos los valores en diccionario
+#( si usamos orderedDict() dos diccionarios no son iguals ya que se rigen por el orden )
 print("!!Diccionario ordenas con el orden de introduccion!!")
 from collections import OrderedDict
 n = OrderedDict()
@@ -46,3 +47,7 @@ n['uno'] = 'one'
 n['dos'] = 'two'
 n['tres'] = 'three'
 print("Mostrand el diccionario ordenado con OrderedDict(): ",n)
+print("==================================================================================")
+
+# tuplas con nombres
+from collections import namedtuple
