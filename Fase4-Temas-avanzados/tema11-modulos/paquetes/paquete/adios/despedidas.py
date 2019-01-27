@@ -5,4 +5,4 @@ def despedirse():
 
 class Despedida():
     def __init__(self):
-    print("Adios, me estoy despidiendo desde el init de la clase Despedida del modulo despedidas")
+        print("Adios, me estoy despidiendo desde el init de la clase Despedida del modulo despedidas")
