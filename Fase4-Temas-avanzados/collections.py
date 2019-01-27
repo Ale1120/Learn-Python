@@ -49,5 +49,9 @@ n['tres'] = 'three'
 print("Mostrand el diccionario ordenado con OrderedDict(): ",n)
 print("==================================================================================")
 
-# tuplas con nombres
+# tuplas con nombres ( si milar a los objetos) son clases sencillas e inmutable
+print("!!Tuplas con nombre ")
 from collections import namedtuple
+Persona = namedtuple('Persona','nombre apellido edad')
+p = Persona(nombre='Alejandro',apellido='Ortegano', edad=23)
+print("Usando tuplas con nombres :",p)
