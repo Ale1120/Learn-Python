@@ -49,3 +49,6 @@ semanas = dt + t
 print("La fecha dentro de dos semanas es : ", semanas.strftime("%A %d %B %Y %H:%M"))
 hace_dos_semanas = dt - t
 print("Hace dos semanas : ", hace_dos_semanas.strftime("%A %d %B %Y %H:%M"))
+
+# importando modulo de zonas horarias (pip3 install pytz)
+import pytz
