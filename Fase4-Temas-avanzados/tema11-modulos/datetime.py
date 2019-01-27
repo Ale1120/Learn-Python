@@ -29,7 +29,8 @@ print("Mostrado el fecha con isoformat(): ", dt.isoformat())
 # %d fecha (1-31)
 # %B Meses en letras
 # %Y año
-# %I hora en formato 12 horas
+# %I hora en formato 12
+# %H hora en foramto 24
 # %M minutos
 print("!!! Formateando manual mente ")
 print("Mi Datetime formateado es :" dt.strftime("%A %d %B %Y %I:%M"))
@@ -38,3 +39,9 @@ print("Mi Datetime formateado es :" dt.strftime("%A %d %B %Y %I:%M"))
 import locale
 locale.setlocale(locale.LC_ALL,'')
 print("Mi Datetime formateado es con localete :" dt.strftime("%A %d %B %Y %I:%M"))
+print("================================")
+
+# ejemplo de uso de Datetime
+print("Sumando nuestro dia actual + dos semanas")
+dt = datetime.datetime.now()
+t= datetime.timedalta(days=14, hours=4, seconds=10000)
