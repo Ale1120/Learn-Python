@@ -14,3 +14,11 @@ print("Utilizando random.randrange(0,101) nos regresa numero random entero >= n1
 
 # ejemplo de uso
 print("Utilizando random.randrange(0,101,2) nos regresa numero random entero pares >= n1 y < n2 ",random.randrange(0,101,2))
+
+
+# elemento o caracter random de un string,lista
+
+string = " H0la mundo"
+print("El caracter random del string (Hola mundo) con choice(): ", random.choice(string))
+lista = [1,2,3,4,5]
+print("EL elemento random de la lista (1,2,3,4,5) con choince(): ",random.choice(lista))
