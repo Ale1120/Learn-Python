@@ -25,3 +25,7 @@ print("Elevando a la 3 con math.pow() es :",math.pow(2,3))
 
 # raiz
 print("La raiz  cuadrada de un numero usando math.sqrt:",math.sqrt(9))
+
+# constante por defecto
+math.e
+math.pi
