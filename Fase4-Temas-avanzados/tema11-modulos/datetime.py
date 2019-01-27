@@ -32,16 +32,20 @@ print("Mostrado el fecha con isoformat(): ", dt.isoformat())
 # %I hora en formato 12
 # %H hora en foramto 24
 # %M minutos
-print("!!! Formateando manual mente ")
-print("Mi Datetime formateado es :" dt.strftime("%A %d %B %Y %I:%M"))
+print("!!! Formateando manual mente!!")
+print("Mi Datetime formateado es :", dt.strftime("%A %d %B %Y %I:%M"))
 
 # importando locale
 import locale
 locale.setlocale(locale.LC_ALL,'')
-print("Mi Datetime formateado es con localete :" dt.strftime("%A %d %B %Y %I:%M"))
+print("Mi Datetime formateado es con localete :", dt.strftime("%A %d %B %Y %H:%M"))
 print("================================")
 
 # ejemplo de uso de Datetime
 print("Sumando nuestro dia actual + dos semanas")
 dt = datetime.datetime.now()
-t= datetime.timedalta(days=14, hours=4, seconds=10000)
+t = datetime.timedelta(days=14, hours=4, seconds=10000)
+semanas = dt + t
+print("La fecha dentro de dos semanas es : ", semanas.strftime("%A %d %B %Y %H:%M"))
+hace_dos_semanas = dt - t
+print("Hace dos semanas : ", hace_dos_semanas.strftime("%A %d %B %Y %H:%M"))
