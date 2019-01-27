@@ -22,3 +22,6 @@ print("EL valor entero de (100.123456) con math.trunc() es:",math.trunc(100.1234
 
 # potencias mas eficiente
 print("Elevando a la 3 con math.pow() es :",math.pow(2,3))
+
+# raiz
+print("La raiz  cuadrada de un numero usando math.sqrt:",math.sqrt(9))
