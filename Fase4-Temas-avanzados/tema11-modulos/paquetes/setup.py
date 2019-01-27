@@ -1,5 +1,6 @@
 # setuptools por defecto
 # paquete distribuible
+# para crear el distribuible python setup.py sdist
 from setuptools import setup
 
 setup(
