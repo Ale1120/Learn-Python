@@ -22,3 +22,6 @@ string = " H0la mundo"
 print("El caracter random del string (Hola mundo) con choice(): ", random.choice(string))
 lista = [1,2,3,4,5]
 print("EL elemento random de la lista (1,2,3,4,5) con choince(): ",random.choice(lista))
+
+# desordenando una lista
+print("Barajeando la lista 1,2,3,4,5 con shuffle()",random.shuffle(lista))
