@@ -52,3 +52,6 @@ print("Hace dos semanas : ", hace_dos_semanas.strftime("%A %d %B %Y %H:%M"))
 
 # importando modulo de zonas horarias (pip3 install pytz)
 import pytz
+print(" ver zonas horarias del mundo",pytz.all_timezones)
+dt = datetime.datetime.now(pytz.timezones('Asia/Tokio'))
+print("Ver la hora de Tokio usando pytz.timeszones",dt.strftime("%A %d %B %Y %H:%M")))
