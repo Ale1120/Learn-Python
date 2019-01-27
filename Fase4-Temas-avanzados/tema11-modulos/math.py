@@ -18,5 +18,7 @@ print( "La suma de una lista 0.999999,2,3 con fsum():",math.fsum(n))
 
 # trucamientos
 # truncamiento enetero
-
 print("EL valor entero de (100.123456) con math.trunc() es:",math.trunc(100.123456))
+
+# potencias mas eficiente
+print("Elevando a la 3 con math.pow() es :",math.pow(2,3))
