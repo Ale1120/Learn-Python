@@ -13,5 +13,5 @@ setup(
     author_email= "tus@perritos.com",
     url="http://tusperrico.com",
     scripts=[],
-    packeges=["paquete","paquete.adios","paquetes.hola"]
+    packeges=["paquete","paquete.adios","paquete.hola"]
 )
