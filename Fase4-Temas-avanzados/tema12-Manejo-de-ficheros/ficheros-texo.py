@@ -10,7 +10,7 @@ texto = "Una linea con texto\nOtra linea con texto"
 # fichero.write(texto)
 
 # crear un fichero de modo lectura
-fichero = open('fichero.txt','r')
+#fichero = open('fichero.txt','r')
 
 # pasando contenido al fichero de modo lectura
 # texto = fichero.read()
@@ -19,3 +19,7 @@ fichero = open('fichero.txt','r')
 # leer las lineas
 lineas = fichero.readlines()
 print(lineas)
+
+# abriendo fichero en modo extension se escribe al final
+fichero = open("fichero.txt", 'a')
+fichero.write("\nCuarta linea")
