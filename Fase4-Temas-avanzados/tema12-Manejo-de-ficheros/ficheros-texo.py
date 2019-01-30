@@ -13,5 +13,9 @@ texto = "Una linea con texto\nOtra linea con texto"
 fichero = open('fichero.txt','r')
 
 # pasando contenido al fichero de modo lectura
-texto = fichero.read()
-print(texto)
+# texto = fichero.read()
+# print(texto)
+
+# leer las lineas
+lineas = fichero.readlines()
+print(lineas)
