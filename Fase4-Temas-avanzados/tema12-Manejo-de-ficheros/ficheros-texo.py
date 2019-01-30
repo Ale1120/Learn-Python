@@ -17,9 +17,27 @@ texto = "Una linea con texto\nOtra linea con texto"
 # print(texto)
 
 # leer las lineas
-lineas = fichero.readlines()
-print(lineas)
+# lineas = fichero.readlines()
+# print(lineas)
 
 # abriendo fichero en modo extension se escribe al final
 fichero = open("fichero.txt", 'a')
 fichero.write("\nCuarta linea")
+
+
+# leer linea por linea
+fichero = open("fichero.txt", 'r')
+linea = fichero.readline()
+print("Primera linea: ", linea)
+linea = fichero.readline()
+print("Segunda linea: ", linea)
+linea = fichero.readline()
+print("Trimera linea: ", linea)
+linea = fichero.readline()
+print("Cuarta linea: ", linea)
+
+
+# lectura linea a linea con ciclos
+with open('fichero.txt','r') as fichero:
+    for linea in fichero:
+        print(linea)
