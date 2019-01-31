@@ -45,5 +45,8 @@ texto = "Una linea con texto\nOtra linea con texto"
 
 # apuntando a un lugar especifico con seek
 fichero = open('fichero.txt','r')
-fichero.seek(10)
-fichero.read()
+# fichero.seek(10)
+# fichero.read()
+
+texto = fichero.read()
+fichero.seek( len(texo / 2))
