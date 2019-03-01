@@ -50,3 +50,16 @@ fichero = open('fichero.txt','r')
 
 texto = fichero.read()
 fichero.seek( len(texo / 2))
+
+# lectura y escritura r+ puntero en el cominezo
+fichero = open('fichero.txt','r+')
+fichero.write("kamamada")
+
+# editando un alineas deseada
+fichero = open('fichero.txt' ,'r+')
+lineas = fichero.readlines()
+lineas[2] = "Esta linea la he modificado en Memoira\n"
+# moviendo el puntero a
+fichero.seek(0)
+fichero.writeline(lineas)
+fichero.close()
