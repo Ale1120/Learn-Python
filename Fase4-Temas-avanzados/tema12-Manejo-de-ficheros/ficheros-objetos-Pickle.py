@@ -21,7 +21,7 @@ print("Recuperando el Fichero binario, despues de borrar la lista:",lista)
 
 
 # ejemplo con objeto
-
+print("Ejemplo con Clases")
 class Persona:
 
     def __init__(self, nombre):
@@ -33,9 +33,17 @@ class Persona:
 nombres = ["Alejandro","Anthony","Osvani"]
 personas = []
 
-for nombre in nombres:
-    persona = Personas(nombre)
+for n in nombres:
+    persona = Persona(n)
     personas.append(persona)
 
 fichero = open('personas.pckl','wb')
-pickle.dump(peronas,fichero)
+pickle.dump(personas, fichero)
+
+
+# recuperando infomarcion
+fichero = open('personas.pckl', 'rb')
+personas = pickle.load(fichero)
+
+for persona in personas:
+    print(persona)
