@@ -18,3 +18,24 @@ del(lista)
 fichero.seek(0)
 lista = pickle.load(fichero)
 print("Recuperando el Fichero binario, despues de borrar la lista:",lista)
+
+
+# ejemplo con objeto
+
+class Persona:
+
+    def __init__(self, nombre):
+        self.nombre = nombre
+
+    def __str__(self):
+        return self.nombre
+
+nombres = ["Alejandro","Anthony","Osvani"]
+personas = []
+
+for nombre in nombres:
+    persona = Personas(nombre)
+    personas.append(persona)
+
+fichero = open('personas.pckl','wb')
+pickle.dump(peronas,fichero)
