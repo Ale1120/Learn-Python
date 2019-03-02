@@ -16,6 +16,7 @@ class Pelicula:
 class Catalogo:
 
     peliculas = []
+
     def __init__(self):
         self.cargar()
 
@@ -24,14 +25,17 @@ class Catalogo:
         self.guardar()
 
     def mostrar(self):
-        for pelicula in self.peliculas:
-            print(pelicula)
+        if len(self.peliculas) == 0:
+            print('El catalogo esta Vacio')
+            return
+        for p in self.peliculas:
+            print(p)
 
     def cargar(self):
         fichero = open('catalogo.pckl','ab+') # binario y lectura
         fichero.seek(0) # colocar el puntero en el inicio
         try:
-            sefl.peliculas = pickle.load(fichero)
+            self.peliculas = pickle.load(fichero)
         except:
             print("El Catalogo Esta Vacio")
         finally:
@@ -40,12 +44,21 @@ class Catalogo:
 
     def guardar(self):
         fichero = open('catalogo.pckl','wb')
-        pickle.dump(self.peliculas,fichero)
+        pickle.dump(self.peliculas, fichero)
         fichero.close()
 
     # Destructor
     def __del__(self):
         self.guardar() # guardado automatico
+        print("Se ha guardado el Catalogo")
 
 
+catalogo = Catalogo()
+# catalogo.mostrar()
+catalogo.agregar( Pelicula("El Padrino", 175, 1972))
+catalogo.agregar( Pelicula("El Padrino: Parte II", 202, 1974))
+
+del(catalogo)
 c = Catalogo()
+c.mostrar()
+del(c)
