@@ -5,6 +5,6 @@ root = Tk()
 
 texto = Text(root)
 texto.pack()
-texto.config(width=30, height=10, font=("Consolas",12), padx=5, pady=5) # lee caracteres no tamñano
+texto.config(width=30, height=10, font=("Consolas",12), padx=15, pady=15, selectbackground="red") # lee caracteres no tamñano
 # Finalmente bucle de la aplicacion
 root.mainloop()
