@@ -4,7 +4,7 @@ from tkinter import *
 root = Tk()
 
 # variables dinamicas
-texto = StringVar()
+"""texto = StringVar()
 texto.set("Un nuevo texto")
 
 
@@ -14,6 +14,11 @@ label.pack(anchor="center")
 Label(root, text="¡Adios!").pack(anchor="se")
 
 label.config(bg="green", fg="blue", font=("verdana", 24))
-label.config(textvariable=texto)
+label.config(textvariable=texto)"""
+
+# importando imagen
+imagen = PhotoImage(file="gif.gif")
+Label(root, image=imagen, bd= 0).pack(side="left") 
+
 # Finalmente bucle de la aplicacion
 root.mainloop()
