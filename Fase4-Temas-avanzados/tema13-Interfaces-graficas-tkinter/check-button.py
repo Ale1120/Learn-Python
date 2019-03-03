@@ -1,5 +1,17 @@
 from tkinter import *
 
+def seleccionar():
+    cadena = ""
+    if (leche.get()):
+        cadena += "Con leche"
+    else:
+        cadena += "Sin leche"
+    if (azucar.get()):
+        cadena += " y con azúcar"
+    else:
+        cadena += " y sin azúcar"
+
+    monitor.config(text=cadena)
 
 # configuracion de la raiz
 root = Tk()
@@ -14,13 +26,15 @@ imagen = PhotoImage(file="gif.gif")
 Label(root,image=imagen).pack(side="left")
 
 frame = Frame(root)
-frame.pack(side="right")
+frame.pack(side="left")
 
 
-Label(frame, text="¿ Cómo quieres el café?").pack()
-Checkbutton(frame,text="Con leche", variable=leche, onvalue=1, offvalue=0).pack()
-Checkbutton(frame,text="Con azúcar", variable=azucar, onvalue=1, offvalue=0).pack()
+Label(frame, text="¿Cómo quieres el café?").pack(anchor="w")
+Checkbutton(frame,text="Con leche", variable=leche, onvalue=1, offvalue=0, command=seleccionar).pack(anchor="w")
+Checkbutton(frame,text="Con azúcar", variable=azucar, onvalue=1, offvalue=0, command=seleccionar).pack(anchor="w")
 
+monitor = Label(frame)
+monitor.pack()
 
 # Bucle de la aplicacion
 root.mainloop()
