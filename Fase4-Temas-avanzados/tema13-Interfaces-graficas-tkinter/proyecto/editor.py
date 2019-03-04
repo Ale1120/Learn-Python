@@ -30,21 +30,29 @@ def abrir():
 def guardar():
     mensaje.set("Save")
     if ruta != "":
-        contenido = texto.get(1.0, "end")
+        contenido = texto.get(1.0, "end-1c")
         fichero = open(ruta, "w+")
         fichero.write(contenido)
         fichero.close()
         mensaje.set("Saved File")
+    else:
+        guardar_como()
 
 
 def guardar_como():
+    global ruta
     mensaje.set("Save As")
-
-
-
-
-
-
+    fichero = FileDialog.asksaveasfile(title="Saved File", mode="w", defaultextension=".txt")
+    if fichero is not None:
+        ruta = fichero.name
+        contenido = texto.get(1.0, "end-1c")
+        fichero = open(ruta, "w+")
+        fichero.write(contenido)
+        fichero.close()
+        mensaje.set("Saved File")
+    else:
+        menaje.set("Saved Canceled")
+        ruta=""
 
 
 # configuracion de la raiz

@@ -5,41 +5,41 @@ from tkinter import filedialog as FileDialog
 
 def test():
     # creando ventana emergente
-    # MessageBox.showwinfo("Hola!", "Hola Mundo.")
-    # MessageBox.showwarning("Alerta!", "Seccion solo para administradores.")
-    # MessageBox.showerror("Erro!", "Ha ocurrido un error inesperado")
+    MessageBox.showwinfo("Hola!", "Hola Mundo.")
+    MessageBox.showwarning("Alerta!", "Seccion solo para administradores.")
+    MessageBox.showerror("Erro!", "Ha ocurrido un error inesperado")
 
     # ventana de eleccion
-    # resultado = MessageBox.askquestion("Salir","¿Estas seguro si desea salir sin guardar")
-    # if resultado == "yes":
-    #     root.destroy()
+    resultado = MessageBox.askquestion("Salir","¿Estas seguro si desea salir sin guardar")
+    if resultado == "yes":
+        root.destroy()
 
     # ventana de aceptar o cancelar
-    # resultado = MessageBox.askokcancel("Salir","¿Sobreescribir el fichero actual")
-    # if resultado:
-    #     root.destroy()
+    resultado = MessageBox.askokcancel("Salir","¿Sobreescribir el fichero actual")
+    if resultado:
+        root.destroy()
 
     # ventana de leccion que retorna un true o false
-    # resultado = MessageBox.askyesno("Salir","¿Estas seguro si desea salir sin guardar")
-    # if resultado:
-    #     root.destroy()
+    resultado = MessageBox.askyesno("Salir","¿Estas seguro si desea salir sin guardar")
+    if resultado:
+        root.destroy()
 
     # ventana de reintentar
-    # resultado = MessageBox.askretrycancel("reintentar","No se puede conectar")
-    # if resultado:
-    #     root.destroy()
+    resultado = MessageBox.askretrycancel("reintentar","No se puede conectar")
+    if resultado:
+        root.destroy()
 
-    # ventana de seleccionar color
-    #color = ColorChooser.askcolor(title="Elige un Color!!!")
-    #print(color)
+    ventana de seleccionar color
+    color = ColorChooser.askcolor(title="Elige un Color!!!")
+    print(color)
 
     # ventana de abrir un archivo
-    # ruta = FileDialog.askopenfilename(title="Abrir Un fichero", initialdir="/home",
-    #      filetypes=(("Fichero de texto", "*.txt"),
-    #          ("Fichero de python", "*.py"),
-    #          ("Todos los ficheros","*.*")) )
-    #
-    # print(ruta)
+    ruta = FileDialog.askopenfilename(title="Abrir Un fichero", initialdir="/home",
+         filetypes=(("Fichero de texto", "*.txt"),
+             ("Fichero de python", "*.py"),
+             ("Todos los ficheros","*.*")) )
+
+    print(ruta)
 
     # ventana de guardar archivo
     # equivale a open('ruta','w')
