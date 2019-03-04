@@ -17,10 +17,16 @@ def test():
     # if resultado:
     #     root.destroy()
 
-    # ventana de leccion que retorna un true o false 
+    # ventana de leccion que retorna un true o false
     # resultado = MessageBox.askyesno("Salir","¿Estas seguro si desea salir sin guardar")
     # if resultado:
     #     root.destroy()
+
+    # ventana de reintentar
+     resultado = MessageBox.askretrycancel("reintentar","No se puede conectar")
+     if resultado:
+         root.destroy()
+
 
 # configuracion de la raiz
 root = Tk()
