@@ -13,10 +13,14 @@ def test():
     #     root.destroy()
 
     # ventana de aceptar o cancelar
-    resultado = MessageBox.askokcancel("Salir","¿Sobreescribir el fichero actual")
-    if resultado:
-        root.destroy()
+    # resultado = MessageBox.askokcancel("Salir","¿Sobreescribir el fichero actual")
+    # if resultado:
+    #     root.destroy()
 
+    # ventana de leccion que retorna un true o false 
+    # resultado = MessageBox.askyesno("Salir","¿Estas seguro si desea salir sin guardar")
+    # if resultado:
+    #     root.destroy()
 
 # configuracion de la raiz
 root = Tk()
