@@ -33,9 +33,22 @@ def test():
     #color = ColorChooser.askcolor(title="Elige un Color!!!")
     #print(color)
 
-    # ventana de un fichero
-    ruta =FileDialog.askopenfilename(title="Abrir Un fichero")
-    print(ruta)
+    # ventana de abrir un archivo
+    # ruta = FileDialog.askopenfilename(title="Abrir Un fichero", initialdir="/home",
+    #      filetypes=(("Fichero de texto", "*.txt"),
+    #          ("Fichero de python", "*.py"),
+    #          ("Todos los ficheros","*.*")) )
+    #
+    # print(ruta)
+
+    # ventana de guardar archivo
+    # equivale a open('ruta','w')
+    fichero = FileDialog.asksaveasfile(title="Guardar un Fichero", mode="w", defaultextension=".txt")
+    print(fichero)
+    if fichero is not None:
+        fichero.write("Hola voy a escribir otra cosa!")
+        fichero.close()
+
 # configuracion de la raiz
 root = Tk()
 
