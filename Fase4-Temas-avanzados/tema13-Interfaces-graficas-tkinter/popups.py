@@ -1,5 +1,6 @@
 from tkinter import *
-from tkinter import messagebox as MessageBox # cambiar el nombre de
+from tkinter import messagebox as MessageBox # cambiar el nombre de la funcion
+from tkinter import colorchooser as ColorChooser
 
 def test():
     # creando ventana emergente
@@ -23,10 +24,13 @@ def test():
     #     root.destroy()
 
     # ventana de reintentar
-     resultado = MessageBox.askretrycancel("reintentar","No se puede conectar")
-     if resultado:
-         root.destroy()
+    # resultado = MessageBox.askretrycancel("reintentar","No se puede conectar")
+    # if resultado:
+    #     root.destroy()
 
+    # ventana de seleccionar color
+    color = ColorChooser.askcolor(title="Elige un Color!!!")
+    print(color)
 
 # configuracion de la raiz
 root = Tk()
