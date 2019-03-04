@@ -8,9 +8,15 @@ def test():
     # MessageBox.showerror("Erro!", "Ha ocurrido un error inesperado")
 
     # ventana de eleccion
-    resultado = MessageBox.askquestion("Salir","¿Estas seguro si desea salir sin guardar")
-    if resultado == "yes":
+    # resultado = MessageBox.askquestion("Salir","¿Estas seguro si desea salir sin guardar")
+    # if resultado == "yes":
+    #     root.destroy()
+
+    # ventana de aceptar o cancelar
+    resultado = MessageBox.askokcancel("Salir","¿Sobreescribir el fichero actual")
+    if resultado:
         root.destroy()
+
 
 # configuracion de la raiz
 root = Tk()
