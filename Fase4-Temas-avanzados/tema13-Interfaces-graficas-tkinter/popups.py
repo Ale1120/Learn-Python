@@ -3,7 +3,7 @@ from tkinter import messagebox as MessageBox # cambiar el nombre de
 
 def test():
     # creando ventana emergente
-    MessageBox.showinfo("Hola!"," Hola Mundo")
+    MessageBox.showwarning("Alerta!", "Seccion solo para administradores.")
 
 # configuracion de la raiz
 root = Tk()
