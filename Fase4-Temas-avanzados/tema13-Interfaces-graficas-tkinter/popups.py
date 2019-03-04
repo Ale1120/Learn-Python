@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox as MessageBox # cambiar el nombre de la funcion
 from tkinter import colorchooser as ColorChooser
+from tkinter import filedialog as FileDialog
 
 def test():
     # creando ventana emergente
@@ -29,9 +30,12 @@ def test():
     #     root.destroy()
 
     # ventana de seleccionar color
-    color = ColorChooser.askcolor(title="Elige un Color!!!")
-    print(color)
+    #color = ColorChooser.askcolor(title="Elige un Color!!!")
+    #print(color)
 
+    # ventana de un fichero
+    ruta =FileDialog.askopenfilename(title="Abrir Un fichero")
+    print(ruta)
 # configuracion de la raiz
 root = Tk()
 
